@@ -18,6 +18,15 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("ProjectConnectio
 
 //Inject the Repository
 builder.Services.AddScoped<IUserRepository, SQLUserRepository>();
+builder.Services.AddScoped<IPostRepository, SQLPostRepository>();
+builder.Services.AddScoped<IVoteRepository, SQLVoteRepository>();
+builder.Services.AddScoped<ICategoryRepository, SQLCategoryRepository>();
+builder.Services.AddScoped<ICommentRepository, SQLCommentRepository>();
+builder.Services.AddScoped<INotificationRepository, SQLNotificationRepository>();
+builder.Services.AddScoped<ITagRepository, SQLTagRepository>();
+builder.Services.AddScoped<IPostTagRepository, SQLPostTagRepository>();
+
+
 
 builder.Services.AddAutoMapper(typeof(AutoMappersProfile));
 

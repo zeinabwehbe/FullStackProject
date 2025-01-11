@@ -1,5 +1,8 @@
-﻿using Microsoft.Extensions.Hosting;
+﻿using System.Xml.Linq;
+using Microsoft.Extensions.Hosting;
+/**Users:
 
+A user can have multiple posts, comments, votes, and notifications.*/
 namespace serverside.Models.Domain
 {
     public class Users
@@ -11,10 +14,13 @@ namespace serverside.Models.Domain
         public string Role { get; set; }
         public int ReputationPoints { get; set; }
         public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
 
         // Navigation properties
-       // public ICollection<Post> Posts { get; set; }
-        // public ICollection<Comment> Comments { get; set; }
+        public ICollection<Posts> Posts { get; set; }
+        public ICollection<Comments> Comments { get; set; }
+        public ICollection<Votes> Votes { get; set; }
+        public ICollection<Notifications> Notifications { get; set; }
     }
 
 }
