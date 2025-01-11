@@ -17,11 +17,10 @@ namespace serverside.Models.Domain
         public DateTime UpdatedAt { get; set; }
 
         // Navigation properties
-        // Navigation properties
         public ICollection<Posts> Posts { get; set; }
-        //public ICollection<Comments> Comments { get; set; }
-        //public ICollection<Notifications> Notifications { get; set; }
-       // public ICollection<Votes> Votes { get; set; }
+        public ICollection<Comments> Comments { get; set; }
+        public ICollection<Votes> Votes { get; set; }
+        public ICollection<Notifications> Notifications { get; set; }
     }
 
 }

@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using serverside.Data;
 using serverside.Models.Domain;
-using serverside.Models.DTOs;
+using serverside.Models.DTOs.User;
 using serverside.Repository;
 
 namespace serverside.Controllers
@@ -15,14 +15,14 @@ namespace serverside.Controllers
     public class UsersController : ControllerBase
     {
         // this is to initialize them
-        private readonly projectDbContext dbContext;
+        //private readonly projectDbContext dbContext;
         private readonly IUserRepository userRepository;
         private readonly IMapper mapper;
 
-        public UsersController(projectDbContext projectDbContext, IUserRepository userRepository, IMapper mapper)
+        public UsersController( IUserRepository userRepository, IMapper mapper)
         {
             this.userRepository = userRepository;
-            this.dbContext = projectDbContext;
+            //this.dbContext = projectDbContext;
             this.mapper = mapper;
 
         }

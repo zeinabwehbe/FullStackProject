@@ -1,4 +1,4 @@
-﻿namespace serverside.Models.DTOs
+﻿namespace serverside.Models.DTOs.User
 {
     //this wil be returned
     public class UserDto

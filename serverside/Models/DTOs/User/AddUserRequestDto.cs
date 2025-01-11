@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace serverside.Models.DTOs
+namespace serverside.Models.DTOs.User
 {
     public class AddUserRequestDto
     {
@@ -19,6 +19,7 @@ namespace serverside.Models.DTOs
         [Required]
         [StringLength(50, ErrorMessage = "Role must not exceed 50 characters.")]
         public string Role { get; set; }
+        public int ReputationPoints { get; set; }
 
     }
 

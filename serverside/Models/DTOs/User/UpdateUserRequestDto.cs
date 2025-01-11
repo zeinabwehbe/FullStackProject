@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace serverside.Models.DTOs
+namespace serverside.Models.DTOs.User
 {
     public class UpdateUserRequestDto
     {

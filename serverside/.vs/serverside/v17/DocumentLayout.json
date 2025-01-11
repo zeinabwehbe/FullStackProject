@@ -3,80 +3,304 @@
   "WorkspaceRootPath": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\domain\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\domain\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\data\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:data\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\sqlpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\sqlpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\addpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\addpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\sqlposttagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\sqlposttagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\adduserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\adduserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\sqlpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\sqlpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\domain\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\domain\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\loginuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\loginuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\sqlvoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\sqlvoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\sqluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\sqluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\data\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:data\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\mappings\\automappersprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:mappings\\automappersprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\domain\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\domain\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250102205928_Initial Database333.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250102205928_Initial Database333.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\controllers\\votescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:controllers\\votescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250102205636_Initial Database33.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250102205636_Initial Database33.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\sqltagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\sqltagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\iposttagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\iposttagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\posttags\\posttagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\posttags\\posttagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\domain\\tags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\domain\\tags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\domain\\posttags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\domain\\posttags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\tags\\updatetagrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\tags\\updatetagrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\tags\\addtagrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\tags\\addtagrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\tags\\tagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\tags\\tagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\notifications\\addnotificationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\notifications\\addnotificationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\sqlnotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\sqlnotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\inotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\inotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\notifications\\updatenotificationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\notifications\\updatenotificationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\notifications\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\notifications\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\domain\\notifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\domain\\notifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\ivoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\ivoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\sqlcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\sqlcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\sqlcommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\sqlcommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\sqluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\sqluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\domain\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\domain\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\comments\\updatecommentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\comments\\updatecommentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\domain\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\domain\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\comments\\addcommentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\comments\\addcommentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\post\\updatepostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\post\\updatepostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\comments\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\comments\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\post\\addpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\post\\addpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\categories\\updatecategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\categories\\updatecategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\categories\\addcategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\categories\\addcategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\categories\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\categories\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\votes\\updatevoterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\votes\\updatevoterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\votes\\addvoterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\votes\\addvoterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\votes\\votedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\votes\\votedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\domain\\votes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\domain\\votes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\user\\loginuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\user\\loginuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\dtos\\user\\adduserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\dtos\\user\\adduserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105214758_Initiall Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105214758_Initiall Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105214436_Initiall Migrationn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105214436_Initiall Migrationn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105214232_Initiall Migrationn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105214232_Initiall Migrationn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\models\\domain\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:models\\domain\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105214007_Initiall Migrationn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105214007_Initiall Migrationn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105213846_Initiall Migrationn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105213846_Initiall Migrationn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|c:\\users\\zayna\\onedrive\\desktop\\ids\\serverside\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F7588E61-D15B-46A5-9187-B5A75ABD8169}|serverside.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250102205415_Initial Database1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250102205415_Initial Database1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105213516_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105213516_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250102205054_Initial Database3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250102205054_Initial Database3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105213129_Laastt befoyree Migrationnnnnny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105213129_Laastt befoyree Migrationnnnnny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105213107_Laastt befoyree Migrationnnnnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105213107_Laastt befoyree Migrationnnnnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105212722_Laastt beforee Migrationnnnnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105212722_Laastt beforee Migrationnnnnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105212640_Laastt beforee Migrationnnnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105212640_Laastt beforee Migrationnnnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105212458_Lastt beforee Migrationnnnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105212458_Lastt beforee Migrationnnnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105212318_Lastt beforee Migrationnnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105212318_Lastt beforee Migrationnnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105212057_Last beforee Migrationnnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105212057_Last beforee Migrationnnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105211928_Last before Migrationnnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105211928_Last before Migrationnnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105200650_Last before Migrationnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105200650_Last before Migrationnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105200507_Last before Migrationn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105200507_Last before Migrationn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105200309_Last before Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105200309_Last before Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105200048_Last Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105200048_Last Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105194756_Second Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250105194756_Second Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,17 +310,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T11:42:08.26Z",
               "IsPinned": true,
@@ -104,12 +328,675 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostsController.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "Controllers\\PostsController.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAwwIsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T20:46:33.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "projectDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Data\\projectDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\projectDbContext.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Data\\projectDbContext.cs",
+              "RelativeToolTip": "Data\\projectDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:41:43.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IPostRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\IPostRepository.cs",
+              "RelativeToolTip": "Repository\\IPostRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAWwAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T21:05:23.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SQLPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLPostRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SQLPostRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLPostRepository.cs",
+              "RelativeToolTip": "Repository\\SQLPostRepository.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAIAwwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T22:38:02.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Posts.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Posts.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Posts.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Posts.cs",
+              "RelativeToolTip": "Models\\Domain\\Posts.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T20:25:09.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SQLPostTagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLPostTagRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SQLPostTagRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLPostTagRepository.cs",
+              "RelativeToolTip": "Repository\\SQLPostTagRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:41:35.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SQLVoteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLVoteRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SQLVoteRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLVoteRepository.cs",
+              "RelativeToolTip": "Repository\\SQLVoteRepository.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwE4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:52:09.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "AutoMappersProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Mappings\\AutoMappersProfile.cs",
+              "RelativeDocumentMoniker": "Mappings\\AutoMappersProfile.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Mappings\\AutoMappersProfile.cs",
+              "RelativeToolTip": "Mappings\\AutoMappersProfile.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAewD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:16:31.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VotesController.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\VotesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VotesController.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\VotesController.cs",
+              "RelativeToolTip": "Controllers\\VotesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:58:12.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SQLTagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLTagRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SQLTagRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLTagRepository.cs",
+              "RelativeToolTip": "Repository\\SQLTagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:29:12.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PostTagDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\PostTags\\PostTagDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\PostTags\\PostTagDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\PostTags\\PostTagDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\PostTags\\PostTagDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:39:54.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPostTagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\IPostTagRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IPostTagRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\IPostTagRepository.cs",
+              "RelativeToolTip": "Repository\\IPostTagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:40:37.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TagsController.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\TagsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TagsController.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\TagsController.cs",
+              "RelativeToolTip": "Controllers\\TagsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:32:12.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateTagRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Tags\\UpdateTagRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Tags\\UpdateTagRequestDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Tags\\UpdateTagRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Tags\\UpdateTagRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:13:04.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ITagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\ITagRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ITagRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\ITagRepository.cs",
+              "RelativeToolTip": "Repository\\ITagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:26:52.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TagDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Tags\\TagDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Tags\\TagDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Tags\\TagDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Tags\\TagDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:12:30.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddTagRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Tags\\AddTagRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Tags\\AddTagRequestDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Tags\\AddTagRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Tags\\AddTagRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:12:01.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PostTags.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\PostTags.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\PostTags.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\PostTags.cs",
+              "RelativeToolTip": "Models\\Domain\\PostTags.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:58:35.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Tags.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Tags.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Tags.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Tags.cs",
+              "RelativeToolTip": "Models\\Domain\\Tags.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:58:03.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateNotificationRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Notifications\\UpdateNotificationRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Notifications\\UpdateNotificationRequestDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Notifications\\UpdateNotificationRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Notifications\\UpdateNotificationRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T16:56:30.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ICommentRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\ICommentRepository.cs",
+              "RelativeToolTip": "Repository\\ICommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:56:24.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "INotificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\INotificationRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\INotificationRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\INotificationRepository.cs",
+              "RelativeToolTip": "Repository\\INotificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T16:57:50.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddNotificationRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Notifications\\AddNotificationRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Notifications\\AddNotificationRequestDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Notifications\\AddNotificationRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Notifications\\AddNotificationRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T16:53:53.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SQLNotificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLNotificationRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SQLNotificationRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLNotificationRepository.cs",
+              "RelativeToolTip": "Repository\\SQLNotificationRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wDkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:01:30.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NotificationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\NotificationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificationsController.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\NotificationsController.cs",
+              "RelativeToolTip": "Controllers\\NotificationsController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowEkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:03:31.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NotificationDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Notifications\\NotificationDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Notifications\\NotificationDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Notifications\\NotificationDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Notifications\\NotificationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T16:56:08.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CommentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\CommentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommentsController.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\CommentsController.cs",
+              "RelativeToolTip": "Controllers\\CommentsController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T16:52:10.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Notifications.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Notifications.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Notifications.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Notifications.cs",
+              "RelativeToolTip": "Models\\Domain\\Notifications.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:57:05.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\ICategoryRepository.cs",
+              "RelativeToolTip": "Repository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:00:33.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:16:00.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SQLCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SQLCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLCategoryRepository.cs",
+              "RelativeToolTip": "Repository\\SQLCategoryRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:08:21.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IVoteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\IVoteRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IVoteRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\IVoteRepository.cs",
+              "RelativeToolTip": "Repository\\IVoteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:48:28.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SQLCommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLCommentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SQLCommentRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLCommentRepository.cs",
+              "RelativeToolTip": "Repository\\SQLCommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T13:06:42.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SQLUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLUserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SQLUserRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLUserRepository.cs",
+              "RelativeToolTip": "Repository\\SQLUserRepository.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:15:35.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "Repository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T09:56:56.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Comments.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Comments.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Comments.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Comments.cs",
+              "RelativeToolTip": "Models\\Domain\\Comments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:42:13.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UpdateCommentRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Comments\\UpdateCommentRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Comments\\UpdateCommentRequestDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Comments\\UpdateCommentRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Comments\\UpdateCommentRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:51:35.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AddCommentRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Comments\\AddCommentRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Comments\\AddCommentRequestDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Comments\\AddCommentRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Comments\\AddCommentRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:50:47.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Comments\\CommentDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Comments\\CommentDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Comments\\CommentDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Comments\\CommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:48:36.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AddPostRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Post\\AddPostRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Post\\AddPostRequestDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Post\\AddPostRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Post\\AddPostRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:30:41.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Categories.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Categories.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Categories.cs",
+              "RelativeToolTip": "Models\\Domain\\Categories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:57:35.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AddCategoryRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Categories\\AddCategoryRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Categories\\AddCategoryRequestDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Categories\\AddCategoryRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Categories\\AddCategoryRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:59:11.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UpdatePostRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Post\\UpdatePostRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Post\\UpdatePostRequestDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Post\\UpdatePostRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Post\\UpdatePostRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:12:12.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Categories\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Categories\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Categories\\CategoryDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Categories\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:59:40.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UpdateCategoryRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Categories\\UpdateCategoryRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Categories\\UpdateCategoryRequestDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Categories\\UpdateCategoryRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Categories\\UpdateCategoryRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:12:11.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAuwJkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:01:46.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "VoteDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Votes\\VoteDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Votes\\VoteDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Votes\\VoteDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Votes\\VoteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T22:32:04.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Votes.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Votes.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Votes.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Votes.cs",
+              "RelativeToolTip": "Models\\Domain\\Votes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:56:43.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AddVoteRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Votes\\AddVoteRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Votes\\AddVoteRequestDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Votes\\AddVoteRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Votes\\AddVoteRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T22:31:27.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UpdateVoteRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Votes\\UpdateVoteRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Votes\\UpdateVoteRequestDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\Votes\\UpdateVoteRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Votes\\UpdateVoteRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:55:17.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\User\\UserDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\User\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\User\\UserDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\User\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:37:40.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
               "Title": "LoginUserRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\LoginUserRequestDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\LoginUserRequestDto.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\LoginUserRequestDto.cs",
-              "RelativeToolTip": "Models\\DTOs\\LoginUserRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\User\\LoginUserRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\User\\LoginUserRequestDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\User\\LoginUserRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\User\\LoginUserRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T22:04:38.425Z",
@@ -117,223 +1004,288 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 53,
               "Title": "AddUserRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\AddUserRequestDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\AddUserRequestDto.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\AddUserRequestDto.cs",
-              "RelativeToolTip": "Models\\DTOs\\AddUserRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\User\\AddUserRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\User\\AddUserRequestDto.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\User\\AddUserRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\User\\AddUserRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T21:47:47.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IPostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\IPostRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IPostRepository.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\IPostRepository.cs",
-              "RelativeToolTip": "Repository\\IPostRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 54,
+              "Title": "20250105214758_Initiall Migration.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105214758_Initiall Migration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105214758_Initiall Migration.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105214758_Initiall Migration.cs",
+              "RelativeToolTip": "Migrations\\20250105214758_Initiall Migration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCEAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T21:05:23.584Z",
+              "WhenOpened": "2025-01-05T21:47:58.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PostsController.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\PostsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PostsController.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Controllers\\PostsController.cs",
-              "RelativeToolTip": "Controllers\\PostsController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAjwD0AAAAxAAAAAAAAAA==",
+              "DocumentIndex": 55,
+              "Title": "20250105214436_Initiall Migrationn.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105214436_Initiall Migrationn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105214436_Initiall Migrationn.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105214436_Initiall Migrationn.cs",
+              "RelativeToolTip": "Migrations\\20250105214436_Initiall Migrationn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T20:46:33.916Z",
+              "WhenOpened": "2025-01-05T21:44:36.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 56,
+              "Title": "20250105214232_Initiall Migrationn.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105214232_Initiall Migrationn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105214232_Initiall Migrationn.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105214232_Initiall Migrationn.cs",
+              "RelativeToolTip": "Migrations\\20250105214232_Initiall Migrationn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:42:32.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20250105214007_Initiall Migrationn.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105214007_Initiall Migrationn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105214007_Initiall Migrationn.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105214007_Initiall Migrationn.cs",
+              "RelativeToolTip": "Migrations\\20250105214007_Initiall Migrationn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:40:07.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20250105213846_Initiall Migrationn.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105213846_Initiall Migrationn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105213846_Initiall Migrationn.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105213846_Initiall Migrationn.cs",
+              "RelativeToolTip": "Migrations\\20250105213846_Initiall Migrationn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:38:46.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20250105213516_Initial Migration.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105213516_Initial Migration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105213516_Initial Migration.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105213516_Initial Migration.cs",
+              "RelativeToolTip": "Migrations\\20250105213516_Initial Migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:35:16.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Users.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Users.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Users.cs",
+              "RelativeToolTip": "Models\\Domain\\Users.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:44:45.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-02T20:41:11.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Posts.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Posts.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\Posts.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Posts.cs",
-              "RelativeToolTip": "Models\\Domain\\Posts.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAzwA4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T20:25:09.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20250102205054_Initial Database3.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250102205054_Initial Database3.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250102205054_Initial Database3.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250102205054_Initial Database3.cs",
-              "RelativeToolTip": "Migrations\\20250102205054_Initial Database3.cs",
+              "DocumentIndex": 62,
+              "Title": "20250105213129_Laastt befoyree Migrationnnnnny.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105213129_Laastt befoyree Migrationnnnnny.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105213129_Laastt befoyree Migrationnnnnny.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105213129_Laastt befoyree Migrationnnnnny.cs",
+              "RelativeToolTip": "Migrations\\20250105213129_Laastt befoyree Migrationnnnnny.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T20:50:54.788Z",
+              "WhenOpened": "2025-01-05T21:31:29.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "projectDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Data\\projectDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\projectDbContext.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Data\\projectDbContext.cs",
-              "RelativeToolTip": "Data\\projectDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 63,
+              "Title": "20250105213107_Laastt befoyree Migrationnnnnn.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105213107_Laastt befoyree Migrationnnnnn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105213107_Laastt befoyree Migrationnnnnn.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105213107_Laastt befoyree Migrationnnnnn.cs",
+              "RelativeToolTip": "Migrations\\20250105213107_Laastt befoyree Migrationnnnnn.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T20:33:28.863Z",
+              "WhenOpened": "2025-01-05T21:31:07.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20250102205415_Initial Database1.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250102205415_Initial Database1.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250102205415_Initial Database1.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250102205415_Initial Database1.cs",
-              "RelativeToolTip": "Migrations\\20250102205415_Initial Database1.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 64,
+              "Title": "20250105212722_Laastt beforee Migrationnnnnn.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105212722_Laastt beforee Migrationnnnnn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105212722_Laastt beforee Migrationnnnnn.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105212722_Laastt beforee Migrationnnnnn.cs",
+              "RelativeToolTip": "Migrations\\20250105212722_Laastt beforee Migrationnnnnn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T20:54:15.156Z",
+              "WhenOpened": "2025-01-05T21:27:22.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SQLPostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLPostRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\SQLPostRepository.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLPostRepository.cs",
-              "RelativeToolTip": "Repository\\SQLPostRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 65,
+              "Title": "20250105212640_Laastt beforee Migrationnnnn.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105212640_Laastt beforee Migrationnnnn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105212640_Laastt beforee Migrationnnnn.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105212640_Laastt beforee Migrationnnnn.cs",
+              "RelativeToolTip": "Migrations\\20250105212640_Laastt beforee Migrationnnnn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T21:06:09.38Z",
+              "WhenOpened": "2025-01-05T21:26:40.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Users.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\Users.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\Domain\\Users.cs",
-              "RelativeToolTip": "Models\\Domain\\Users.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 66,
+              "Title": "20250105212458_Lastt beforee Migrationnnnn.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105212458_Lastt beforee Migrationnnnn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105212458_Lastt beforee Migrationnnnn.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105212458_Lastt beforee Migrationnnnn.cs",
+              "RelativeToolTip": "Migrations\\20250105212458_Lastt beforee Migrationnnnn.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T20:24:53.237Z",
+              "WhenOpened": "2025-01-05T21:24:58.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PostDto.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\PostDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\PostDto.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\PostDto.cs",
-              "RelativeToolTip": "Models\\DTOs\\PostDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 67,
+              "Title": "20250105212318_Lastt beforee Migrationnnn.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105212318_Lastt beforee Migrationnnn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105212318_Lastt beforee Migrationnnn.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105212318_Lastt beforee Migrationnnn.cs",
+              "RelativeToolTip": "Migrations\\20250105212318_Lastt beforee Migrationnnn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T21:02:25.938Z",
+              "WhenOpened": "2025-01-05T21:23:18.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddPostRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\AddPostRequestDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\AddPostRequestDto.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Models\\DTOs\\AddPostRequestDto.cs",
-              "RelativeToolTip": "Models\\DTOs\\AddPostRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 68,
+              "Title": "20250105212057_Last beforee Migrationnnn.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105212057_Last beforee Migrationnnn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105212057_Last beforee Migrationnnn.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105212057_Last beforee Migrationnnn.cs",
+              "RelativeToolTip": "Migrations\\20250105212057_Last beforee Migrationnnn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T21:31:47.284Z",
+              "WhenOpened": "2025-01-05T21:20:57.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\IUserRepository.cs",
-              "RelativeToolTip": "Repository\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 69,
+              "Title": "20250105211928_Last before Migrationnnn.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105211928_Last before Migrationnnn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105211928_Last before Migrationnnn.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105211928_Last before Migrationnnn.cs",
+              "RelativeToolTip": "Migrations\\20250105211928_Last before Migrationnnn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T21:39:00.5Z",
+              "WhenOpened": "2025-01-05T21:19:28.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SQLUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLUserRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\SQLUserRepository.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Repository\\SQLUserRepository.cs",
-              "RelativeToolTip": "Repository\\SQLUserRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBEAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 70,
+              "Title": "20250105200650_Last before Migrationnn.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105200650_Last before Migrationnn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105200650_Last before Migrationnn.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105200650_Last before Migrationnn.cs",
+              "RelativeToolTip": "Migrations\\20250105200650_Last before Migrationnn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T21:39:10.73Z",
+              "WhenOpened": "2025-01-05T20:06:50.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AutoMappersProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Mappings\\AutoMappersProfile.cs",
-              "RelativeDocumentMoniker": "Mappings\\AutoMappersProfile.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Mappings\\AutoMappersProfile.cs",
-              "RelativeToolTip": "Mappings\\AutoMappersProfile.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB4AAAAuAAAAAAAAAA==",
+              "DocumentIndex": 71,
+              "Title": "20250105200507_Last before Migrationn.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105200507_Last before Migrationn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105200507_Last before Migrationn.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105200507_Last before Migrationn.cs",
+              "RelativeToolTip": "Migrations\\20250105200507_Last before Migrationn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T21:03:57.075Z",
+              "WhenOpened": "2025-01-05T20:05:07.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20250102205636_Initial Database33.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250102205636_Initial Database33.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250102205636_Initial Database33.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250102205636_Initial Database33.cs",
-              "RelativeToolTip": "Migrations\\20250102205636_Initial Database33.cs",
+              "DocumentIndex": 72,
+              "Title": "20250105200309_Last before Migration.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105200309_Last before Migration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105200309_Last before Migration.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105200309_Last before Migration.cs",
+              "RelativeToolTip": "Migrations\\20250105200309_Last before Migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T20:03:09.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "20250105200048_Last Migration.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105200048_Last Migration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105200048_Last Migration.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105200048_Last Migration.cs",
+              "RelativeToolTip": "Migrations\\20250105200048_Last Migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T20:00:48.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "20250105194756_Second Migration.cs",
+              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105194756_Second Migration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250105194756_Second Migration.cs",
+              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250105194756_Second Migration.cs",
+              "RelativeToolTip": "Migrations\\20250105194756_Second Migration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T20:56:36.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20250102205928_Initial Database333.cs",
-              "DocumentMoniker": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250102205928_Initial Database333.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250102205928_Initial Database333.cs",
-              "ToolTip": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\Migrations\\20250102205928_Initial Database333.cs",
-              "RelativeToolTip": "Migrations\\20250102205928_Initial Database333.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T20:59:28.984Z",
+              "WhenOpened": "2025-01-05T19:47:56.328Z",
               "EditorCaption": ""
             }
           ]

@@ -1,4 +1,4 @@
-﻿namespace serverside.Models.DTOs
+﻿namespace serverside.Models.DTOs.Post
 {
     public class PostDto
     {
