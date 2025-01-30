@@ -4,7 +4,7 @@ namespace serverside.Repository
 {
     public interface IPostRepository
     {
-        Task<List<Posts>> GetAllPostsAsync();
+        Task<List<Posts>> GetAllPostsAsync(string? filterOn, string? filterQuery, int? userId);
         Task<Posts?> GetPostByIdAsync(int id);
         Task<Posts> CreateAsync(Posts post);
         Task<Posts?> UpdateAsync(int id, Posts post);
@@ -13,5 +13,7 @@ namespace serverside.Repository
         Task<List<Posts>> GetPostsByCategoryIdAsync(int categoryId);
         Task<List<Posts?>> GetPostsByTagIdAsync(int tagId);
         Task<Posts?> UpvoteAsync(int postId);
+        Task<Posts?> DownvoteAsync(int postId);
+
     }
 }

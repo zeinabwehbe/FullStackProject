@@ -20,19 +20,26 @@ namespace serverside.Repository
             await _projectDbContext.SaveChangesAsync();
             return post;
         }
-
-        public async Task<List<Posts>> GetAllPostsAsync()
+        public async Task<List<Posts>> GetAllPostsAsync(string? filterOn, string? filterQuery, int? userId)
         {
             IQueryable<Posts> postsQuery = _projectDbContext.Posts;
 
-            // Uncomment and modify this section for filtering if needed
-            // if (!string.IsNullOrWhiteSpace(filterOn))
-            // {
-            //     if (filterOn.Equals("MyProperty", StringComparison.OrdinalIgnoreCase))
-            //     {
-            //         postsQuery = postsQuery.Where(x => x.MyProperty == filterQuery);
-            //     }
-            // }
+            if (!string.IsNullOrWhiteSpace(filterOn))
+            {
+                if (filterOn.Equals("Title", StringComparison.OrdinalIgnoreCase))
+                {
+                    postsQuery = postsQuery.Where(x => x.Title.Contains(filterQuery));
+                }
+                else if (filterOn.Equals("Author", StringComparison.OrdinalIgnoreCase))
+                {
+                    postsQuery = postsQuery.Where(x => x.Title.Contains(filterQuery));
+                }
+            }
+            // Filter by UserId if it's provided
+            if (userId.HasValue)
+            {
+                postsQuery = postsQuery.Where(x => x.UserId == userId.Value);
+            }
 
             var posts = await postsQuery.ToListAsync();
             return posts;
@@ -124,6 +131,24 @@ namespace serverside.Repository
 
             // Increment the upvote count
             post.Upvotes += 1;
+
+            // Save changes
+            await _projectDbContext.SaveChangesAsync();
+
+            return post;
+        }
+        public async Task<Posts?> DownvoteAsync(int postId)
+        {
+            // Find the post by its ID
+            var post = await _projectDbContext.Posts.FirstOrDefaultAsync(p => p.Id == postId);
+
+            if (post == null)
+            {
+                return null; // Post not found
+            }
+
+            // Increment the upvote count
+            post.Downvotes += 1;
 
             // Save changes
             await _projectDbContext.SaveChangesAsync();

@@ -49,20 +49,12 @@
 
          <div class="collapse navbar-collapse text-center" id="navigation">
             <ul class="navbar-nav ml-auto">
-               <li class="nav-item dropdown">
-                  <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+ 
+                  <a class="nav-link" href="index.html" role="button"  
                      aria-expanded="false">
-                     homepage <i class="ti-angle-down ml-1"></i>
+                     New Posts  
                   </a>
-                  <div class="dropdown-menu">
-                     <a class="dropdown-item" href="index-full.html">Homepage Full Width</a>
-                     <a class="dropdown-item" href="index-full-left.html">Homepage Full With Left Sidebar</a>
-                     <a class="dropdown-item" href="index-full-right.html">Homepage Full With Right Sidebar</a>
-                     <a class="dropdown-item" href="index-list.html">Homepage List Style</a>
-                     <a class="dropdown-item" href="index-list-left.html">Homepage List With Left Sidebar</a>
-                     <a class="dropdown-item" href="index-list-right.html">Homepage List With Right Sidebar</a>
-                  </div>
-               </li>
+ 
                <li class="nav-item">
                   <a class="nav-link" href="about.html">About</a>
                </li>
@@ -71,12 +63,11 @@
                </li>
                <li class="nav-item dropdown">
                   <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-                     aria-expanded="false">Pages <i class="ti-angle-down ml-1"></i>
+                     aria-expanded="false"> Logout <i class="ti-angle-down ml-1"></i>
                   </a>
                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="author.html">Author</a>
-                     <a class="dropdown-item" href="post-details-1.html">Post Details 1</a>
-                     <a class="dropdown-item" href="post-elements.html">Post Elements</a>
+                     <a class="dropdown-item" href="sign-in.html">Switch into another Account</a>
+                     <a class="dropdown-item" href="sign-up.html">Logout</a>
                      <a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a>
                      <a class="dropdown-item" href="terms-conditions.html">Terms Conditions</a>
                   </div>
@@ -104,12 +95,12 @@
 </header>
 <!-- /navigation -->
 
-<section class="section-sm border-bottom">
-	<div class="container">
+<section class="section-sm ">
+	<div class="container"">
 		<div class="row">
 			<div class="col-12">
 				<div class="title-bordered mb-5 d-flex align-items-center">
-					<h1 class="h4">John Doe</h1>
+					<h1 class="h4"> </h1>
 					<ul class="list-inline social-icons ml-auto mr-3 d-none d-sm-block">
 						<li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a>
 						</li>
@@ -121,169 +112,77 @@
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-4 mb-4 mb-md-0 text-center text-md-left">
-				<img loading="lazy" class="rounded-lg img-fluid" src="images/author.jpg">
+				<img loading="lazy" class="img-fluid grayscale" src="images/profile-pic.jpg">
 			</div>
 			<div class="col-lg-9 col-md-8 content text-center text-md-left">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet. Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.</p>
-				<p>Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue.</p>
+				<p style="color: black;"><strong>Passionate gamer enthusiast with boundless energy and a passion for leveling up, conquering challenges, and having fun. Always ready for the next adventure!</strong></p>
+				<p style="color: black;">Whether it's battling bosses, exploring open worlds, or teaming up with friends, I am always in the zone. A quick thinker with sharp reflexes, I am not just about winning but mastering every game I plays. Outside the virtual world, my creativity and enthusiasm make me the go-to guy for new ideas and epic adventures.</p>
 			</div>
 		</div>
 	</div>
 </section>
+
+<div class="container">
+   <div class="col-lg-12">
+     <div class="title text-center">
+       <h2 class="mb-5">What's on your mind?</h2>
+     </div>
+   </div>
+   <div class="card glass-card">
+     <div class="card-body">
+       <form id="postForm" style="width: 100%; align-items: center; margin:auto;">
+         <div class="position-relative mb-3">
+           <input type="text" id="title" class="form-control" placeholder="Post's Title..." required>
+         </div>
+         <div class="position-relative mb-3">
+           <textarea id="description" class="form-control" placeholder="What are your thoughts!" rows="4" required></textarea>
+         </div>
+         <div class="position-relative mb-3">
+           <label for="tagId">My Post is</label>
+           <select id="tagId" class="form-control" required>
+            <option value="" disabled selected>Tagged as</option>
+            <option value="4">Games</option>          <!-- New tag under Fun -->
+            <option value="5">Movies</option>         <!-- New tag under Fun -->
+            <option value="6">Tutorials</option>      <!-- New tag under Educational -->
+            <option value="7">Courses</option>        <!-- New tag under Educational -->
+            <option value="8">AI</option>             <!-- New tag under Technology -->
+            <option value="9">Programming</option>    <!-- New tag under Technology -->
+            <option value="10">Others</option>    <!-- New tag under Technology -->
+
+         </select>
+         </div>
+         <div class="position-relative mb-3">
+           <select id="categoryId" class="form-control" required>
+             <option value="" disabled selected>Categorized as</option>
+             <option value="1">Fun</option>
+             <option value="2">Educational</option>
+             <option value="3">Technology</option>
+           </select>
+         </div>
+         <button class="btn btn-primary btn-block rounded" type="submit" style="width: 100%; align-items: center;">
+           Post Now
+         </button>
+       </form>
+     </div>
+   </div>
+ </div>
+ 
+
+
 
 <section class="section-sm">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="title text-center">
-					<h2 class="mb-5">Posted by this author</h2>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6 mb-4">
-				<article class="mb-5">
-					<div class="post-slider slider-sm">
-						<img loading="lazy" src="images/post/post-6.jpg" class="img-fluid" alt="post-thumb">
-						<img loading="lazy" src="images/post/post-1.jpg" class="img-fluid" alt="post-thumb">
-						<img loading="lazy" src="images/post/post-3.jpg" class="img-fluid" alt="post-thumb">
-					</div>
-					<h3 class="h5"><a class="post-title" href="post-elements.html">Elements That You Can Use To Create A New Post
-							On This Template.</a></h3>
-					<ul class="list-inline post-meta mb-2">
-						<li class="list-inline-item"><i class="ti-user mr-2"></i><a href="author.html">John
-								Doe</a>
-						</li>
-						<li class="list-inline-item">Date : March 15, 2020</li>
-						<li class="list-inline-item">Categories :	<a href="#!" class="ml-1">Photography </a>
-						</li>
-						<li class="list-inline-item">Tags : <a href="#!" class="ml-1">Photo </a> ,<a href="#!" class="ml-1">Image </a>
-						</li>
-					</ul>
-					<p>Heading example Here is example of hedings. You can use this heading by following markdownify rules. …</p>	<a href="post-elements.html" class="btn btn-outline-primary">Continue Reading</a>
-				</article>
-			</div>
-			<div class="col-lg-4 col-sm-6 mb-4">
-				<article class="mb-5">
-					<div class="post-slider slider-sm">
-						<img loading="lazy" src="images/post/post-1.jpg" class="img-fluid" alt="post-thumb">
-					</div>
-					<h3 class="h5"><a class="post-title" href="post-details-1.html">Cheerful Loving Couple Bakers Drinking
-							Coffee</a></h3>
-					<ul class="list-inline post-meta mb-2">
-						<li class="list-inline-item"><i class="ti-user mr-2"></i><a href="author.html">John
-								Doe</a>
-						</li>
-						<li class="list-inline-item">Date : March 14, 2020</li>
-						<li class="list-inline-item">Categories :	<a href="#!" class="ml-1">Photography </a>
-						</li>
-						<li class="list-inline-item">Tags : <a href="#!" class="ml-1">Photo </a> ,<a href="#!" class="ml-1">Image </a>
-						</li>
-					</ul>
-					<p>It’s no secret that the digital industry is booming. From exciting startups to global brands, …</p>	<a href="post-details-1.html" class="btn btn-outline-primary">Continue Reading</a>
-				</article>
-			</div>
-			<div class="col-lg-4 col-sm-6 mb-4">
-				<article class="mb-5">
-					<div class="post-slider slider-sm">
-						<img loading="lazy" src="images/post/post-2.jpg" class="img-fluid" alt="post-thumb">
-						<img loading="lazy" src="images/post/post-4.jpg" class="img-fluid" alt="post-thumb">
-					</div>
-					<h3 class="h5"><a class="post-title" href="post-details-1.html">Cheerful Loving Couple Bakers Drinking
-							Coffee</a></h3>
-					<ul class="list-inline post-meta mb-2">
-						<li class="list-inline-item"><i class="ti-user mr-2"></i><a href="author.html">John
-								Doe</a>
-						</li>
-						<li class="list-inline-item">Date : March 14, 2020</li>
-						<li class="list-inline-item">Categories :	<a href="#!" class="ml-1">Photobooth </a>
-						</li>
-						<li class="list-inline-item">Tags : <a href="#!" class="ml-1">Booth </a> ,<a href="#!" class="ml-1">Image </a>
-						</li>
-					</ul>
-					<p>It’s no secret that the digital industry is booming. From exciting startups to global brands, …</p>	<a href="post-details-1.html" class="btn btn-outline-primary">Continue Reading</a>
-				</article>
-			</div>
-			<div class="col-lg-4 col-sm-6 mb-4">
-				<article class="mb-5">
-					<div class="post-slider slider-sm">
-						<img loading="lazy" src="images/post/post-3.jpg" class="img-fluid" alt="post-thumb">
-					</div>
-					<h3 class="h5"><a class="post-title" href="post-details-1.html">Cheerful Loving Couple Bakers Drinking
-							Coffee</a></h3>
-					<ul class="list-inline post-meta mb-2">
-						<li class="list-inline-item"><i class="ti-user mr-2"></i><a href="author.html">John
-								Doe</a>
-						</li>
-						<li class="list-inline-item">Date : March 14, 2020</li>
-						<li class="list-inline-item">Categories :	<a href="#!" class="ml-1">Videography </a>
-						</li>
-						<li class="list-inline-item">Tags : <a href="#!" class="ml-1">Video </a> ,<a href="#!" class="ml-1">Image </a>
-						</li>
-					</ul>
-					<p>It’s no secret that the digital industry is booming. From exciting startups to global brands, …</p>	<a href="post-details-1.html" class="btn btn-outline-primary">Continue Reading</a>
-				</article>
-			</div>
-			<div class="col-lg-4 col-sm-6 mb-4">
-				<article class="mb-5">
-					<div class="post-slider slider-sm">
-						<img loading="lazy" src="images/post/post-4.jpg" class="img-fluid" alt="post-thumb">
-						<img loading="lazy" src="images/post/post-1.jpg" class="img-fluid" alt="post-thumb">
-					</div>
-					<h3 class="h5"><a class="post-title" href="post-details-1.html">Cheerful Loving Couple Bakers Drinking
-							Coffee</a></h3>
-					<ul class="list-inline post-meta mb-2">
-						<li class="list-inline-item"><i class="ti-user mr-2"></i><a href="author.html">John
-								Doe</a>
-						</li>
-						<li class="list-inline-item">Date : March 14, 2020</li>
-						<li class="list-inline-item">Categories :	<a href="#!" class="ml-1">Four seasone </a>
-						</li>
-						<li class="list-inline-item">Tags : <a href="#!" class="ml-1">Seasone </a> ,<a href="#!" class="ml-1">New </a>
-						</li>
-					</ul>
-					<p>It’s no secret that the digital industry is booming. From exciting startups to global brands, …</p>	<a href="post-details-1.html" class="btn btn-outline-primary">Continue Reading</a>
-				</article>
-			</div>
-			<div class="col-lg-4 col-sm-6 mb-4">
-				<article class="mb-5">
-					<div class="post-slider slider-sm">
-						<img loading="lazy" src="images/post/post-5.jpg" class="img-fluid" alt="post-thumb">
-					</div>
-					<h3 class="h5"><a class="post-title" href="post-details-1.html">Cheerful Loving Couple Bakers Drinking
-							Coffee</a></h3>
-					<ul class="list-inline post-meta mb-2">
-						<li class="list-inline-item"><i class="ti-user mr-2"></i><a href="author.html">John
-								Doe</a>
-						</li>
-						<li class="list-inline-item">Date : March 14, 2020</li>
-						<li class="list-inline-item">Categories :	<a href="#!" class="ml-1">Newyork city </a>
-						</li>
-						<li class="list-inline-item">Tags : <a href="#!" class="ml-1">City </a> ,<a href="#!" class="ml-1">Photo </a>
-						</li>
-					</ul>
-					<p>It’s no secret that the digital industry is booming. From exciting startups to global brands, …</p>	<a href="post-details-1.html" class="btn btn-outline-primary">Continue Reading</a>
-				</article>
-			</div>
-			<div class="col-lg-4 col-sm-6 mb-4">
-				<article class="mb-5">
-					<h3 class="h5"><a class="post-title" href="post-details-1.html">Cheerful Loving Couple Bakers Drinking
-							Coffee</a></h3>
-					<ul class="list-inline post-meta mb-2">
-						<li class="list-inline-item"><i class="ti-user mr-2"></i><a href="author.html">John
-								Doe</a>
-						</li>
-						<li class="list-inline-item">Date : March 14, 2020</li>
-						<li class="list-inline-item">Categories :	<a href="#!" class="ml-1">Newyork city </a>
-						</li>
-						<li class="list-inline-item">Tags : <a href="#!" class="ml-1">City </a> ,<a href="#!" class="ml-1">Photo </a>
-						</li>
-					</ul>
-					<p>It’s no secret that the digital industry is booming. From exciting startups to global brands, …</p>	<a href="post-details-1.html" class="btn btn-outline-primary">Continue Reading</a>
-				</article>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title text-center">
+                    <h2 class="mb-5">Posted by this author</h2>
+                </div>
+            </div>
+            <!-- This is where posts will be dynamically added -->
+            <div id="posts-container" class="row poster-card"></div>
+        </div>
+    </div>
 </section>
-
    <footer class="section-sm pb-0 border-top border-default">
       <div class="container">
          <div class="row justify-content-between">
@@ -342,5 +241,177 @@
 
    <!-- Main Script -->
    <script src="js/script.js"></script>
-</body>
+   <script>
+	const userName = localStorage.getItem("userName");
+
+	if (userName) {
+	    document.querySelector("h1.h4").textContent = userName;
+	    document.querySelector("title").textContent = userName;
+	} else {
+	    console.error("User name not found in local storage.");
+	}
+
+   </script>
+
+<script>
+   document.getElementById('postForm').addEventListener('submit', async function (event) {
+     event.preventDefault(); // Prevent form from refreshing the page
+    // Retrieve userId from localStorage and convert it to a number
+    const userId = parseInt(localStorage.getItem("userId"));
+
+    // Collect form data
+    const data = {
+      userId, // Now userId will be a number
+       title: document.getElementById('title').value,
+       description: document.getElementById('description').value,
+       tagId: parseInt(document.getElementById('tagId').value),
+       categoryId: parseInt(document.getElementById('categoryId').value),
+     };
+ console.log(data);
+     try {
+       // Send POST request to your API endpoint
+       const response = await fetch('https://localhost:7069/api/Posts', {
+         method: 'POST',
+         headers: {
+           'Content-Type': 'application/json',
+         },
+         body: JSON.stringify(data),
+       });
+ 
+       if (response.ok) {
+         const result = await response.json();
+         alert('Post created successfully!');
+         console.log(result);
+       } else {
+         alert('Failed to create post.');
+         console.error(await response.text());
+       }
+     } catch (error) {
+       console.error('Error:', error);
+       alert('An error occurred.');
+     }
+   });
+ </script>
+
+
+<script>
+   const userId = localStorage.getItem("userId");
+   console.log(userId);
+
+   const POSTS_API_URL = `https://localhost:7069/api/Posts/user/${userId}`;
+   const USER_API_URL = `https://localhost:7069/api/Users/${userId}`;
+   const CATEGORIES_API_URL = `https://localhost:7069/api/Categories`; // Assuming this is the endpoint for categories
+
+   let ExtracteduserName = "Unknown User"; // Default name
+   let categoriesMap = {}; // Map of categoryId to categoryName
+
+   // Fetch user details
+   async function fetchUserDetails() {
+       try {
+           const response = await fetch(USER_API_URL);
+           if (!response.ok) throw new Error(`Failed to fetch user details: ${response.statusText}`);
+           
+           const user = await response.json();
+           ExtracteduserName = user.name || `User ${userId}`;
+       } catch (error) {
+           console.error("Error fetching user details:", error);
+       }
+   }
+
+   // Fetch categories
+   async function fetchCategories() {
+       try {
+           const response = await fetch(CATEGORIES_API_URL);
+           if (!response.ok) throw new Error(`Failed to fetch categories: ${response.statusText}`);
+           
+           const categories = await response.json();
+           // Create a mapping of categoryId to categoryName
+           categories.forEach(category => {
+               categoriesMap[category.id] = category.name;
+           });
+       } catch (error) {
+           console.error("Error fetching categories:", error);
+       }
+   }
+
+   // Fetch posts and render them
+   async function fetchPosts() {
+       try {
+           await Promise.all([fetchUserDetails(), fetchCategories()]); // Fetch user and categories in parallel
+
+           console.log("Categories Map:", categoriesMap); // Debugging line
+
+           const response = await fetch(POSTS_API_URL);
+           if (!response.ok) throw new Error(`Failed to fetch posts: ${response.statusText}`);
+           
+           const posts = await response.json();
+           renderPosts(posts);
+       } catch (error) {
+           console.error("Error fetching posts:", error);
+       }
+   }
+
+   // Render posts into the DOM
+   function renderPosts(posts) {
+       const postsContainer = document.getElementById("posts-container");
+
+       if (!posts.length) {
+           postsContainer.innerHTML = `<p>No posts available for this user.</p>`;
+           return;
+       }
+
+       posts.forEach(post => {
+           const categoryName = categoriesMap[post.categoryId] || `Category ${post.categoryId}`;
+           const postHTML = `
+               <div class="col-lg-12 col-sm-6 mb-4">
+                   <article class="mb-5" style="width: 75%; align-items: center; margin:auto;">
+                       <h3 class="h3"><a class="post-title" href="post-details.html?id=${post.id}">${post.title}</a></h3>
+                       <ul class="list-inline post-meta mb-2">
+                           <li class="list-inline-item"><i class="ti-user mr-2"></i>Author: ${userName}</li>
+                           <li class="list-inline-item">Date: ${new Date(post.createdAt).toLocaleDateString()}</li>
+                           <li class="list-inline-item">Category: <a href="#!" class="ml-1">${categoryName}</a></li>
+                           <li class="list-inline-item">Upvotes: ${post.upvotes}</li>
+                           <li class="list-inline-item">Downvotes: ${post.downvotes}</li>
+                       </ul>
+                       <p>${post.description}</p>
+                        <button class="btn btn-outline-secondary" onclick="editPost(${post.id})">Edit</button>
+                       <button class="btn btn-outline-danger" onclick="deletePost(${post.id})">Delete</button>
+                   </article>
+               </div>
+           `;
+           postsContainer.insertAdjacentHTML("beforeend", postHTML);
+       });
+   }
+
+   // Load posts on page load
+   window.addEventListener("DOMContentLoaded", fetchPosts);
+</script>
+
+<script>
+   async function editPost(postId) {
+       // Redirect to the edit page with the post ID
+       window.location.href = `edit-post.html?id=${postId}`;
+   }
+
+   async function deletePost(postId) {
+       if (confirm("Are you sure you want to delete this post?")) {
+           try {
+               const response = await fetch(`https://localhost:7069/api/Posts/${postId}`, {
+                   method: 'DELETE',
+               });
+               if (response.ok) {
+                   alert('Post deleted successfully!');
+                   // Optionally, refresh the posts or remove the post from the DOM
+                   fetchPosts(); // Refresh the posts
+               } else {
+                   alert('Failed to delete post.');
+               }
+           } catch (error) {
+               console.error('Error:', error);
+               alert('An error occurred while deleting the post.');
+           }
+       }
+   }
+</script>
+
 </html>

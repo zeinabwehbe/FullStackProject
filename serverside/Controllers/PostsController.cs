@@ -30,9 +30,9 @@ namespace serverside.Controllers
         // GET ALL POSTS
         // GET: https://localhost:7069/api/Posts
         [HttpGet]
-        public async Task<IActionResult> GetAllPosts()
+        public async Task<IActionResult> GetAllPosts(string? filterOn, string? filterQuery, int? userId)
         {
-            var postsDomain = await postRepository.GetAllPostsAsync();
+            var postsDomain = await postRepository.GetAllPostsAsync(filterOn,filterQuery,userId);
             var postsDto = mapper.Map<List<PostDto>>(postsDomain);
             return Ok(postsDto);
         }
@@ -99,22 +99,31 @@ namespace serverside.Controllers
         [HttpPut("{id:int}")]
         public async Task<IActionResult> Update([FromRoute] int id, [FromBody] UpdatePostRequestDto updatePostRequestDto)
         {
+
+
+            // Map DTO to domain model
             var postDomainModel = mapper.Map<Posts>(updatePostRequestDto);
+
+            // Perform the update operation
             postDomainModel = await postRepository.UpdateAsync(id, postDomainModel);
 
+            // Handle case where the post does not exist
             if (postDomainModel == null)
             {
-                return NotFound($"Post with ID {id} not found.");
+                return NotFound(new { Message = $"Post with ID {id} not found." });
             }
 
+            // Map domain model back to DTO
             var postDto = mapper.Map<PostDto>(postDomainModel);
+
             return Ok(new
             {
                 Message = "Post updated successfully.",
                 UpdatedPost = postDto
             });
-
         }
+
+
 
         // DELETE POST
         // DELETE: https://localhost:7069/api/Posts/{id}
@@ -136,6 +145,23 @@ namespace serverside.Controllers
         public async Task<IActionResult> UpvotePost(int id)
         {
             var postDomainModel = await postRepository.UpvoteAsync(id);
+
+            if (postDomainModel == null)
+            {
+                return NotFound(new { message = "Post not found." });
+            }
+
+            // Map the upvoted post domain model to a DTO
+            var postDto = mapper.Map<PostDto>(postDomainModel);
+
+            return Ok(new { message = "Post upvoted successfully", postDto });
+        }
+
+        // DOWN POST
+        [HttpPost("{id}/Downvote")]
+        public async Task<IActionResult> DownvotePost(int id)
+        {
+            var postDomainModel = await postRepository.DownvoteAsync(id);
 
             if (postDomainModel == null)
             {

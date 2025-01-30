@@ -68,12 +68,13 @@ namespace serverside.Repository
             return existingCategory;
         }
 
-        // GET all categories
-        public async Task<List<Categories>> GetAllCategoriesAsync()
+        public async Task<List<Categories>> GetAllCategoriesAsync( )
         {
-            return await _projectDbContext.Categories.ToListAsync();
+            IQueryable<Categories> categoriesQuery = _projectDbContext.Categories;
+
+            return await categoriesQuery.ToListAsync();
         }
 
- 
+
     }
 }

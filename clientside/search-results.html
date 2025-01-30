@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:600%7cOpen&#43;Sans&amp;display=swap" media="screen">
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Search Results</title>
+   <script src="search-results.js" defer></script>
+</head>
+<div class="container">
+    <div class="title text-center">
+        <h2 class="mb-5" style="margin-top: 100px ;">Searching Result</h2>
+      </div>
+   <div class="container glass-card" style="padding: 20px;">
+      <div id="posts-container"></div>
+   </div>
+   </div>
+</div>
+</html>
+
+<script>
+    const POSTS_API_URL = `https://localhost:7069/api/Posts`;
+    let categoriesMap = {}; // Map of categoryId to categoryName
+      const CATEGORIES_API_URL = `https://localhost:7069/api/Categories`; // Assuming this is the endpoint for categories
+
+async function fetchFilteredPosts(filterOn, filterQuery) {
+    const url = `${POSTS_API_URL}?filterOn=${encodeURIComponent(filterOn)}&filterQuery=${encodeURIComponent(filterQuery)}`;
+    const response = await fetch(url);
+    const posts = await response.json();
+    return posts;
+}
+
+function getQueryParams() {
+    const params = new URLSearchParams(window.location.search);
+    return {
+        filterOn: params.get("filterOn"),
+        filterQuery: params.get("filterQuery"),
+    };
+}
+ 
+async function fetchCategories() {
+       try {
+           const response = await fetch(CATEGORIES_API_URL);
+           if (!response.ok) throw new Error(`Failed to fetch categories: ${response.statusText}`);
+           
+           const categories = await response.json();
+           // Create a mapping of categoryId to categoryName
+           categories.forEach(category => {
+               categoriesMap[category.id] = category.name;
+           });
+       } catch (error) {
+           console.error("Error fetching categories:", error);
+       }
+   }
+   // Function to fetch user name by userId
+   async function fetchUserName(userId) {
+       try {
+           const response = await fetch(`https://localhost:7069/api/Users/${userId}`);
+           if (!response.ok) throw new Error(`Failed to fetch user details: ${response.statusText}`);
+           
+           const user = await response.json();
+           return user.username || `User ${userId}`; // Return the user's name or a default
+       } catch (error) {
+           console.error("Error fetching user name:", error);
+           return `User ${userId}`; // Return a default in case of error
+       }
+   }
+async function renderPosts(posts) {
+    const postsContainer = document.getElementById("posts-container");
+    postsContainer.innerHTML = ""; // Clear previous posts
+
+    if (!posts.length) {
+        postsContainer.innerHTML = `<p>No posts found matching your search criteria.</p>`;
+        return;
+    }
+
+    for (const post of posts) {
+        await Promise.all([ fetchCategories()]); // Fetch user and categories in parallel
+        const userName = await fetchUserName(post.userId); // Fetch the user name
+        const categoryName = categoriesMap[post.categoryId] || `Category ${post.categoryId}`;
+
+        const postHTML = `
+               <div class="col-lg-12 col-sm-6 mb-4" id="post-${post.id}">
+                   <article class="mb-5" style="width: 100%; align-items: center; margin:auto;">
+                       <h3 class="h3">
+                           <a class="post-title" href="post-details.html?id=${post.id}">${post.title}</a>
+                       </h3>
+                       <ul class="list-inline post-meta mb-2">
+                              <li class="list-inline-item"><i class="ti-user mr-2"></i>Author: ${userName}</li>
+                              <li class="list-inline-item">Category: ${categoryName}</li>
+                           <li class="list-inline-item">Date: ${new Date(post.createdAt).toLocaleDateString('en-US')}</li>
+                           <li class="list-inline-item">Upvotes: ${post.upvotes}</li>
+                           <li class="list-inline-item">Downvotes: ${post.downvotes}</li>
+                       </ul>
+                       <p id="description-${post.id}">${post.description}</p>
+                       <button  onclick="upvotePost(${post.id})"><i class="ti-thumb-up"></i> </button>
+                       <button  onclick="downvotePost(${post.id})"><i class="ti-thumb-down"></i></button>
+                   </article>
+               </div>
+        `;
+        postsContainer.insertAdjacentHTML("beforeend", postHTML);
+    }
+}
+
+// Main logic to handle rendering the page
+async function initSearchResults() {
+    const { filterOn, filterQuery } = getQueryParams();
+    if (!filterOn || !filterQuery) {
+        document.getElementById("posts-container").innerHTML = `<p>Invalid search criteria.</p>`;
+        return;
+    }
+
+    const posts = await fetchFilteredPosts(filterOn, filterQuery);
+    renderPosts(posts);
+}
+
+// Initialize the search results page
+initSearchResults();
+
+</script>

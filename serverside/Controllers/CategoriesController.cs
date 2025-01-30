@@ -23,9 +23,9 @@ namespace serverside.Controllers
 
         // GET ALL CATEGORIES
         [HttpGet]
-        public async Task<IActionResult> GetAllCategories()
+        public async Task<IActionResult> GetAllCategories( )
         {
-            var categoriesDomain = await _categoryRepository.GetAllCategoriesAsync();
+            var categoriesDomain = await _categoryRepository.GetAllCategoriesAsync( );
 
             // Map Domain Models to DTOs
             var categoriesDto = _mapper.Map<List<CategoryDto>>(categoriesDomain);

@@ -8582,11 +8582,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\serverside.csproj",
+      "projectUniqueName": "C:\\Users\\Zayna\\OneDrive\\Desktop\\FULLSTACK\\FullStackProject\\serverside\\serverside.csproj",
       "projectName": "serverside",
-      "projectPath": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\serverside.csproj",
+      "projectPath": "C:\\Users\\Zayna\\OneDrive\\Desktop\\FULLSTACK\\FullStackProject\\serverside\\serverside.csproj",
       "packagesPath": "C:\\Users\\Zayna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zayna\\OneDrive\\Desktop\\IDS\\serverside\\obj\\",
+      "outputPath": "C:\\Users\\Zayna\\OneDrive\\Desktop\\FULLSTACK\\FullStackProject\\serverside\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
